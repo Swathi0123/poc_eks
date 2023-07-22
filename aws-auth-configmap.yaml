@@ -7,6 +7,7 @@ data:
       - system:nodes
       rolearn: arn:aws:iam::975722656191:role/eksctl-kubernetes-github-actions-NodeInstanceRole-1K8Z3VEH87L2C
       username: system:node:{{EC2PrivateDNSName}}
+      
   mapUsers: |
     - userarn: arn:aws:iam::975722656191:role/eksctl-kubernetes-github-actions
       username: kubernetes-github-actions
